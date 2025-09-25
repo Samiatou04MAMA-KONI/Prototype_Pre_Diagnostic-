@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saisir vos symptômes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Saisir vos symptômes</h1>
+        <nav class="nav1">
+            <a class="accueil" href="index.html">Retour</a>
+        </nav>
+    </header>
+    <main>
+        <form id="symptomeForm">
+            <fieldset>
+                <legend>Symptômes fréquents</legend>
+                <label><input type="checkbox" name="symptomes" value="fièvre"> Fièvre</label>
+                <label><input type="checkbox" name="symptomes" value="toux"> Toux</label>
+                <label><input type="checkbox" name="symptomes" value="maux de tête"> Maux de tête</label>
+                <label><input type="checkbox" name="symptomes" value="fatigue"> Fatigue</label>
+                <label><input type="checkbox" name="symptomes" value="nausées"> Nausées</label>
+            </fieldset>
+            <div class="input-group">
+                <label for="autres">Autres symptômes :</label>
+                <input type="text" id="autres" placeholder="Entrez d'autres symptômes séparés par une virgule">
+            </div>
+            <a class="commencer1" href="resultat.html"><button type="submit" class="main-btn">Analyser</button></a>
+        </form>
+    </main>
+    <footer>
+        <p>© 2025 Pré-Diagnostic Médical au Bénin</p>
+        <p class="disclaimer">Ce site ne remplace pas une consultation médicale.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
